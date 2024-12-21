@@ -9,16 +9,18 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "hexabot": "^2.1.6",
     "@nestjs/common": "^10.0.0",
+    "hexabot": "^2.1.6",
+    "hexabot-helper-chatgpt": "^2.1.1",
+    "hexabot-helper-gemini": "^2.1.3",
     "hexabot-helper-ollama": "^2.1.2",
     "hexabot-plugin-ollama": "^2.1.0",
-    "hexabot-helper-gemini": "^2.1.3",
-    "hexabot-helper-chatgpt": "^2.1.1"
+    "puppeteer": "^23.11.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@types/puppeteer": "^5.4.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.42.0",
