@@ -1,16 +1,23 @@
-# Hexabot Template Starter
+# BotBreaker - Orange AI Hackathon Project
 
-Welcome to the **Hexabot Template Starter** repository! This template provides everything you need to get started with building a custom Hexabot project. It includes essential folders and files to help you extend Hexabot, define your own modules, and quickly run your project in Docker. Below you'll find details on the structure and how to use this template.
+## Video Demonstration
+Watch the video below to see BotBreaker in action:
+([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://youtu.be/hTR3KfDL9nw))
 
-Not familiar with [Hexabot](https://hexabot.ai/) ? It's an open-source chatbot / agent solution that allows users to create and manage AI-powered, multi-channel, and multilingual chatbots with ease. If you would like to learn more, please visit the [official github repo](https://github.com/Hexastack/Hexabot/).
+## Overview
+BotBreaker is a Question-Answer platform developed during the Orange AI Hackathon. The platform leverages the Hexabot platform and utilizes the RAG (Retrieval-Augmented Generation) model with OLlama to provide accurate and context-aware answers. Our primary focus is on scraping web pages related to data science, enabling users to get precise information and insights from the vast amount of data available online.
 
-## Project Structure
+## Features
+- **Web Scraping**: Automatically scrapes web pages related to data science topics.
+- **Question-Answering**: Utilizes the RAG model with OLlama to provide accurate answers to user queries.
+- **Hexabot Integration**: Built on the Hexabot platform for seamless integration and scalability.
+- **Data Science Focus**: Specifically tailored for data science-related content, ensuring relevant and high-quality information.
 
-- **extensions/**: This folder is where you can develop your own extensions for Hexabot. Inside, you'll find subfolders for:
-
-  - **channels/**: Add new messaging channels.
-  - **helpers/**: Add helper functions or utilities.
-  - **plugins/**: Create plugins to create custom blocks in the visual editor. Plugins is where you can perform text-to-action and integrate with 3rd party APIs. To get started, there is a `hello` plugin provided as an example.
+## Technologies Used
+- **Hexabot Platform**: The backbone of our application, providing the necessary infrastructure and tools.
+- **RAG Model**: Retrieval-Augmented Generation model for generating context-aware answers.
+- **OLlama**: The underlying model used for natural language understanding and generation.
+- **Web Scraping Tools**: Various tools and libraries for extracting data from web pages.
 
 - **modules/**: Since Hexabot API is built on top of NestJS, this folder allows you to extend the Hexabot API by adding your own modules (controllers, services, etc.).
 
@@ -21,20 +28,26 @@ Not familiar with [Hexabot](https://hexabot.ai/) ? It's an open-source chatbot /
 ## Getting Started
 
 1. **Install Hexabot CLI**:
-   To create a new Hexabot project, first install the Hexabot CLI globally:
-
+   
+  1.1 Clone the repository:
    ```bash
-   npm install -g hexabot-cli
-   ```
-
-2. **Create Your Project**:
+   git clone https://github.com/Mohamedalybouri/BotBreaker_Orange_AI_Hackathon.git
+   cd BotBreaker_Orange_AI_Hackathon
+  ```
+  1.2 Install the required dependencies:
+  
+  ```bash
+  Copy
+  pip install -r requirements.txt
+  ```
+3. **Create Your Project**:
    Use the Hexabot CLI to create a new chatbot project:
 
    ```bash
    hexabot create my-chatbot
    ```
 
-3. **Configure Your Environment**:
+4. **Configure Your Environment**:
 
    - Copy the `.env.example` file to `.env` and customize it according to your environment and configuration needs.
 
@@ -42,7 +55,7 @@ Not familiar with [Hexabot](https://hexabot.ai/) ? It's an open-source chatbot /
    cp .env.example .env
    ```
 
-4. **Run the Project**:
+5. **Run the Project**:
    Navigate into the newly created folder and run the following command to start the project in development mode:
 
    ```bash
@@ -57,7 +70,7 @@ Not familiar with [Hexabot](https://hexabot.ai/) ? It's an open-source chatbot /
 
    _Note_: The first run may take some time as it needs to download all required Docker images.
 
-5. **Configure your NLU Engine**:
+6. **Configure your NLU Engine**:
    After creating your new project, the **Hexabot LLM-NLU Engine** will be enabled by default. This NLU engine relies on one of the following LLM helpers being present, you can enable one of these by following the steps detailed in [LLM NLU Engine](https://docs.hexabot.ai/user-guide/nlu/nlu-engines/llm-nlu-engine) documentation page:
 
    - Ollama Helper (`hexabot-helper-ollama`)
