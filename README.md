@@ -14,7 +14,7 @@ BotBreaker is a Question-Answer platform developed during the Orange AI Hackatho
 - **Hexabot Integration**: Built on the Hexabot platform for seamless integration and scalability.
 - **Data Science Focus**: Specifically tailored for data science-related content, ensuring relevant and high-quality information.
 
-## Technologies Used
+## Technologies Used  🤖👩‍💻👨‍💻
 - **Hexabot Platform**: The backbone of our application, providing the necessary infrastructure and tools.
 - **RAG Model**: Retrieval-Augmented Generation model for generating context-aware answers.
 - **OLlama**: The underlying model used for natural language understanding and generation.
