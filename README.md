@@ -2,7 +2,8 @@
 
 ## Video Demonstration
 Watch the video below to see BotBreaker in action:
-([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://youtu.be/hTR3KfDL9nw))
+
+[View Demo Video](./Video/Ai%20Educator_Orang%20Hackathon.mp4)
 
 ## Overview
 BotBreaker is a Question-Answer platform developed during the Orange AI Hackathon. The platform leverages the Hexabot platform and utilizes the RAG (Retrieval-Augmented Generation) model with OLlama to provide accurate and context-aware answers. Our primary focus is on scraping web pages related to data science, enabling users to get precise information and insights from the vast amount of data available online.
