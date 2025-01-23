@@ -1,14 +1,14 @@
-# BotBreaker - Orange AI Hackathon Project
+# BotBreaker - Orange AI Hackathon Project 🚀🤖
 
-## Video Demonstration
+## Video Demonstration 
 Watch the video below to see BotBreaker in action:
 
 [View Demo Video](./Video/Ai%20Educator_Orang%20Hackathon.mp4)
 
-## Overview
+## Overview 💡
 BotBreaker is a Question-Answer platform developed during the Orange AI Hackathon. The platform leverages the Hexabot platform and utilizes the RAG (Retrieval-Augmented Generation) model with OLlama to provide accurate and context-aware answers. Our primary focus is on scraping web pages related to data science, enabling users to get precise information and insights from the vast amount of data available online.
 
-## Features
+## Features📚🤖
 - **Web Scraping**: Automatically scrapes web pages related to data science topics.
 - **Question-Answering**: Utilizes the RAG model with OLlama to provide accurate answers to user queries.
 - **Hexabot Integration**: Built on the Hexabot platform for seamless integration and scalability.
@@ -26,7 +26,7 @@ BotBreaker is a Question-Answer platform developed during the Orange AI Hackatho
 
 - **docker/docker-compose.yml**: This file defines the services needed to run your Hexabot project using Docker Compose. It simplifies the setup of multiple services such as databases or other dependencies.
 
-## Getting Started
+## Getting Started  🎉
 
 1. **Install Hexabot CLI**:
    
